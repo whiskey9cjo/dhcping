@@ -298,13 +298,13 @@ s,@target_os@,linux-gnu,;t t
 s,@OS_OPT@,,;t t
 s,@PACKAGE@,dhcping,;t t
 s,@VERSION@,1.2,;t t
-s,@ACLOCAL@,${SHELL} /home/cjorr/src/dhcping-1.2/missing --run aclocal,;t t
-s,@AUTOCONF@,${SHELL} /home/cjorr/src/dhcping-1.2/missing --run autoconf,;t t
-s,@AUTOMAKE@,${SHELL} /home/cjorr/src/dhcping-1.2/missing --run automake,;t t
-s,@AUTOHEADER@,${SHELL} /home/cjorr/src/dhcping-1.2/missing --run autoheader,;t t
-s,@MAKEINFO@,${SHELL} /home/cjorr/src/dhcping-1.2/missing --run makeinfo,;t t
-s,@AMTAR@,${SHELL} /home/cjorr/src/dhcping-1.2/missing --run tar,;t t
-s,@install_sh@,/home/cjorr/src/dhcping-1.2/install-sh,;t t
+s,@ACLOCAL@,${SHELL} /home/cjorr/src/dhcping/missing --run aclocal,;t t
+s,@AUTOCONF@,${SHELL} /home/cjorr/src/dhcping/missing --run autoconf,;t t
+s,@AUTOMAKE@,${SHELL} /home/cjorr/src/dhcping/missing --run automake,;t t
+s,@AUTOHEADER@,${SHELL} /home/cjorr/src/dhcping/missing --run autoheader,;t t
+s,@MAKEINFO@,${SHELL} /home/cjorr/src/dhcping/missing --run makeinfo,;t t
+s,@AMTAR@,${SHELL} /home/cjorr/src/dhcping/missing --run tar,;t t
+s,@install_sh@,/home/cjorr/src/dhcping/install-sh,;t t
 s,@INSTALL_STRIP_PROGRAM@,${SHELL} $(install_sh) -c -s,;t t
 s,@AWK@,gawk,;t t
 s,@SET_MAKE@,,;t t

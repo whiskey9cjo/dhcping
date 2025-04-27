@@ -38,10 +38,10 @@ pkglibdir = $(libdir)/dhcping
 pkgincludedir = $(includedir)/dhcping
 top_builddir = .
 
-ACLOCAL = ${SHELL} /home/cjorr/src/dhcping-1.2/missing --run aclocal
-AUTOCONF = ${SHELL} /home/cjorr/src/dhcping-1.2/missing --run autoconf
-AUTOMAKE = ${SHELL} /home/cjorr/src/dhcping-1.2/missing --run automake
-AUTOHEADER = ${SHELL} /home/cjorr/src/dhcping-1.2/missing --run autoheader
+ACLOCAL = ${SHELL} /home/cjorr/src/dhcping/missing --run aclocal
+AUTOCONF = ${SHELL} /home/cjorr/src/dhcping/missing --run autoconf
+AUTOMAKE = ${SHELL} /home/cjorr/src/dhcping/missing --run automake
+AUTOHEADER = ${SHELL} /home/cjorr/src/dhcping/missing --run autoheader
 
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL}
@@ -61,7 +61,7 @@ host_alias =
 host_triplet = aarch64-unknown-linux-gnu
 target_alias = 
 target_triplet = aarch64-unknown-linux-gnu
-AMTAR = ${SHELL} /home/cjorr/src/dhcping-1.2/missing --run tar
+AMTAR = ${SHELL} /home/cjorr/src/dhcping/missing --run tar
 AWK = gawk
 CC = gcc
 DEPDIR = .deps
@@ -73,7 +73,7 @@ PACKAGE = dhcping
 VERSION = 1.2
 am__include = include
 am__quote = 
-install_sh = /home/cjorr/src/dhcping-1.2/install-sh
+install_sh = /home/cjorr/src/dhcping/install-sh
 
 bin_PROGRAMS = dhcping
 dhcping_SOURCES = dhcping.c dhcping_options.h
